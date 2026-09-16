@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+:root {
+  --ink: #0F1B2A;
+  --surface: #FFFFFF;
+  --surface-alt: #F4F6F8;
+  --steel: #2C5F7C;
+  --amber: #C48A2E;
+  --line: #E2E6EA;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@theme inline {
+  --color-ink: var(--ink);
+  --color-surface: var(--surface);
+  --color-surface-alt: var(--surface-alt);
+  --color-steel: var(--steel);
+  --color-amber: var(--amber);
+  --color-line: var(--line);
+  --font-heading: var(--font-space-grotesk);
+  --font-body: var(--font-inter);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--surface);
+  color: var(--ink);
+  font-family: var(--font-body), sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-heading), sans-serif;
+  letter-spacing: -0.01em;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
