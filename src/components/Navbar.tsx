@@ -24,7 +24,7 @@ export default function Navbar() {
           <div className="flex items-center gap-6">
             <span>09078921750</span>
             <span className="text-white/30">|</span>
-            <span>info@jaded.ng</span>
+            <span>info@janded.ng</span>
           </div>
         </div>
       </div>

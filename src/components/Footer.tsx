@@ -46,7 +46,7 @@ export default function Footer() {
           <p>No. 9 Konoko Street, Wuse 2, Abuja, FCT</p>
           <p>09078921750</p>
           <p>08114381212</p>
-          <p>info@jaded.ng</p>
+          <p>info@janded.ng</p>
         </div>
 
         <div className="text-sm space-y-2">

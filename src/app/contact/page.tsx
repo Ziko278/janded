@@ -75,8 +75,8 @@ export default function Contact() {
             <p className="text-[0.7rem] uppercase tracking-[0.12em] text-ink/50 mb-2">
               Email
             </p>
-            <a href="mailto:info@jaded.ng" className="text-ink/80 hover:text-amber transition-colors">
-              info@jaded.ng
+            <a href="mailto:info@janded.ng" className="text-ink/80 hover:text-amber transition-colors">
+              info@janded.ng
             </a>
           </div>
           <div className="aspect-[4/3] border border-line overflow-hidden">
