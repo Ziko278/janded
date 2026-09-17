@@ -16,7 +16,7 @@ export async function POST(req: NextRequest) {
     }
 
     await resend.emails.send({
-      from: "Janded Website <onboarding@resend.dev>",
+      from: "Janded Website <noreply@janded.ng>",
       to: "info@janded.ng",
       replyTo: email,
       subject: subject ? `New enquiry: ${subject}` : "New website enquiry",
